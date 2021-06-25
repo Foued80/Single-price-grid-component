@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    min-height: 100vh;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+h1{
+    font-size: 1.7rem;
+}
+h2{
+    font-size: 1.2rem;
+}
+p{
+    color:hsl(218, 22%, 67%);
+    line-height: 1.6rem;
+}
+.card{
+    margin: 0 auto;
+    width:100vw;
+    min-height: 100vh;
+    margin-bottom: 1rem;   
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+}
+.card .section1{
+    padding: 2rem 1.5rem 2rem;
+    
+}
+.card .section1 > h1 {
+    color:hsl(179, 62%, 43%);
+    margin-bottom: 1.5rem;
+}
+.card .section1 > h2{
+    color:hsl(71, 73%, 54%);
+    margin-bottom: 1.5rem;
+}
+
+
+.card .section2 {
+    background-color: hsl(179, 62%, 43%);
+    padding: 2rem 1.5rem 2rem;
+    color:white;
+}
+.card .section2 > h2 {
+    color:rgb(250,250,250);
+    margin-bottom: 1.5rem;
+}
+.card .section2 > h3 {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card .section2 > h3 > span {
+    font-size:2.5rem;
+    margin-right: 0.5rem;
+}
