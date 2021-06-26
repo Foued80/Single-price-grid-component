@@ -14,7 +14,7 @@
 - Mobile-first workflow
 - Mobileview 375px, desktop view 1440px
 
-Live Site URL: [Add live site URL here](https://foued80.github.io/Single-price-grid-component/)
+Live Site URL: [https://foued80.github.io/Single-price-grid-component/](https://foued80.github.io/Single-price-grid-component/)
 
 
 
