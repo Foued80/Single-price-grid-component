@@ -232,7 +232,12 @@ p {
 	}
 	.card .section2 button {
 		padding: 0.6rem 1rem;
+        cursor: pointer;
+        transition: 0.2s;
 	}
+    .card .section2 button:hover {
+        transform:scale(1.01);
+    }
 	.card .section3 {
 		padding: 1.5rem 2.5rem;
 		-ms-grid-column: 2;
